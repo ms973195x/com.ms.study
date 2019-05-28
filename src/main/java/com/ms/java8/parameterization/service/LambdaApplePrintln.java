@@ -9,24 +9,24 @@ import java.util.List;
 /**
  * @version 1.0.0
  * @auther: Created by zyl on 2019/5/28
- * @description:
+ * @description: Lambda表达式应用
  */
 public class LambdaApplePrintln {
 
     public static void main(String[] args) {
-        Apple a1 = new Apple();
-        a1.setColor("蓝色");
-        a1.setWeight(150.11);
+        Apple aaaa1 = new Apple();
+        aaaa1.setColor("蓝色");
+        aaaa1.setWeight(150.11);
 
-        Apple a2 = new Apple();
-        a2.setColor("红色");
-        a2.setWeight(140.22);
+        Apple aaaa2 = new Apple();
+        aaaa2.setColor("红色");
+        aaaa2.setWeight(140.22);
 
         List<Apple> apples = new ArrayList<>();
-        apples.add(a1);
-        apples.add(a2);
+        apples.add(aaaa1);
+        apples.add(aaaa2);
 
-        apples.sort((Apple aa1,Apple aa2) -> aa1.getWeight().compareTo(aa2.getWeight()));
+        apples.forEach(apple -> System.out.println(apple.getColor()));
 
     }
 

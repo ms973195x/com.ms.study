@@ -10,14 +10,9 @@ public class LambdaDemo {
 
     public static void main(String[] args) {
 
-        /*Runnable runnable = () -> System.out.println("111");
-
+        Runnable runnable = () -> System.out.println("111");
         runnablePrintln(runnable);
-
-        runnablePrintln(() -> System.out.println("222"));*/
-
-
-
+        runnablePrintln(() -> System.out.println("222"));
     }
 
 

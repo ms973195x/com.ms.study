@@ -13,6 +13,8 @@ public class LambdaDemo {
         Runnable runnable = () -> System.out.println("111");
         runnablePrintln(runnable);
         runnablePrintln(() -> System.out.println("222"));
+
+
     }
 
 

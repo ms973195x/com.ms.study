@@ -37,11 +37,27 @@
     </properties>
 
     <dependencies>
+        <!-- json解析jar包 -->
         <dependency>
             <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
             <version>${json-lib.version}</version>
             <classifier>jdk15</classifier>
+        </dependency>
+
+        <!-- junit单元测试 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- excel操作工具类 -->
+        <dependency>
+            <groupId>com.github.andyczy</groupId>
+            <artifactId>java-excel-utils</artifactId>
+            <version>4.0</version>
         </dependency>
 
     </dependencies>

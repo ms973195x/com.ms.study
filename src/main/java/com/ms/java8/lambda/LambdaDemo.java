@@ -9,12 +9,12 @@ package com.ms.java8.lambda;
 public class LambdaDemo {
 
     public static void main(String[] args) {
-
         Runnable runnable = () -> System.out.println("111");
-        runnablePrintln(runnable);
+        runnablePrintln(() -> {
+            System.out.println("Hello world x");
+        });
         runnablePrintln(() -> System.out.println("222"));
-
-
+        runnablePrintln(runnable);
     }
 
 

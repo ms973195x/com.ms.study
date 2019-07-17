@@ -15,4 +15,8 @@ public class PrintlnAllApple implements AppleWeightPrintln {
         return str;
     }
 
+    @Override
+    public String applePrintln(Object o) {
+        return null;
+    }
 }

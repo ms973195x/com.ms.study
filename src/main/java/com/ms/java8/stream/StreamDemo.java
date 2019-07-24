@@ -3,10 +3,7 @@ package com.ms.java8.stream;
 
 import com.ms.java8.stream.entity.Dish;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -66,6 +63,8 @@ public class StreamDemo {
             System.out.println("菜品类型: " + cc);
             map.forEach(System.out::println);
         });
+
+
     }
 
 }

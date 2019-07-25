@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @version 1.0.0
- * @auther: Created by zyl on 2019/7/24
+ * @author  : Created by zyl on 2019/7/24
  * @description: java基础练习Demo
  */
 public class BasicsDemo {
@@ -94,9 +94,8 @@ class Manager extends Employee{
     @Override
     public String toString() {
         return "Manager{" +
-                "name='" + super.getName() + '\'' +
-                ",salary=" + super.getSalary() +
-                ",bonus=" + bonus +
+                super.toString() +
+                "bonus=" + bonus +
                 '}';
     }
 }

@@ -5,8 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ms.study</groupId>
-    <artifactId>study</artifactId>
+    <artifactId>study-world</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>Ms Study</name>
 
     <!-- spirng boot版本集成 -->
     <parent>

@@ -29,5 +29,18 @@ public class RanDomDemo {
         System.out.println(a);
     }
 
+    @Test
+    public void Test2(){
+        for (int i = 0; i < 50; i++) {
+            System.out.println("123456");
+            for (int j = 0; j < 50; j++) {
+                if (j == 2){
+                    return;
+                }
+                System.out.println(j);
+            }
+        }
+    }
+
 }
 
